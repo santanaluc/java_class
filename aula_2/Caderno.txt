@@ -1,0 +1,30 @@
+ENUMS: É CRIADO UM TIPO(CLASSE) QUE CARREGA UMA QUANTIDADE DE VALORES(OBJETOS) FINITOS E ORDENADOS
+/**
+ * como se fossem inteiros restritos
+ * enum é como se fosse uma classe, podendo colocar atributos e classes
+ * enum = estrutura que permite criar valores fixos.**/
+
+CONSTRUTORES: "MÉTODO" USADO PARA INICIALIZAR O ESTADO DOS OBJETOS E/OU REALIZAR ALGUMA ROTINA DE INICIALIZAÇÃO
+/**Construtores são métodos que ajudam na definicao do estado incial**/
+
+RETORNO:
+	- void: INDICA QUE UM MÉTODO NAO POSSUI UM RETURNO VALORADO.
+	A PALAVRA return PODE (OPCIONAL) SER USADA SOZINHA, PORÉM O USUAL É NEM MENCIONÁ-LA
+
+	- nao-void: QUANDO HÁ UM TIPO INDICANDO O RETORNO. A PRESENÇA DA PALAVRA
+	return É OBRIGATÓRIA E UM VALOR DE MESMO TIPO DEVE SER INDICADO.
+
+	int metodo() {
+
+		...
+		int valorInteiro = ...;
+		..
+		return valorInteiro;
+	}
+
+	OU
+
+	int metodo() {
+		... 
+		return 89;
+	}

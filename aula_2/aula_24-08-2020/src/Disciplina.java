@@ -35,7 +35,6 @@ public class Disciplina {
 			System.out.println("CURSO EMP");
 			/**ou "case GE"**/
 		}
-		
 	}
 }
 

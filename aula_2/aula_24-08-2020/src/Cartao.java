@@ -8,7 +8,7 @@ public class Cartao {
 		this.nome = nome;
 		this.valor = valor;
 		this.tipo = tipo;
-	}
+	} //constructor (para passar os dados como parâmetro)
 	
 	double descontar() {
 		switch (tipo) {
@@ -20,7 +20,7 @@ public class Cartao {
 			return 0.9;
 		default:
 			return 0.8;
-		}
+		} //determinar o desconto na fatura
 	}
 	
 	void mostrarDados() {
